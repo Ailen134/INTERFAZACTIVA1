@@ -1,6 +1,6 @@
 CXX = nvcc
 
-TAU?=1.0
+TAU?=1000.0
 MONITOR?=1000
 
 INCLUDES = -I/opt/nvidia/hpc_sdk/Linux_x86_64/23.7/math_libs/12.2/include 
