@@ -10,7 +10,7 @@ do
     semilla=$(awk -v i=$i -v i0=$i0 'BEGIN{print i+i0}')
     echo "semilla = "$semilla 
 
-    ./anhinterface $L $Nrun $semilla 
+    ./activeinterface $L $Nrun $semilla 
     cp inst_sofq.dat "inst_sofq_"$i"_.dat" 
     cp cm.dat "cm_"$i"_.dat";
 done
